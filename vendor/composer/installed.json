@@ -895,6 +895,68 @@
             "install-path": "../../web/themes/contrib/gin"
         },
         {
+            "name": "drupal/gin_login",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/gin_login.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/gin_login-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "de3180f6418614916e5a99ba686ba93bf8c1dadb"
+            },
+            "require": {
+                "drupal/core": "^8.9 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1682973994",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sascha Eggenberger (saschaeggi)",
+                    "homepage": "https://www.drupal.org/u/saschaeggi",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Custom Drupal Login for Gin theme",
+            "homepage": "https://www.drupal.org/project/gin_login",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/gin_login",
+                "issues": "https://www.drupal.org/project/issues/gin_login"
+            },
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/saschaeggi"
+                },
+                {
+                    "type": "other",
+                    "url": "https://paypal.me/saschaeggi"
+                }
+            ],
+            "install-path": "../../web/modules/contrib/gin_login"
+        },
+        {
             "name": "drupal/gin_toolbar",
             "version": "1.0.0-rc3",
             "version_normalized": "1.0.0.0-RC3",
@@ -955,6 +1017,57 @@
                 }
             ],
             "install-path": "../../web/modules/contrib/gin_toolbar"
+        },
+        {
+            "name": "drupal/gin_toolbar_custom_menu",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/gin_toolbar_custom_menu.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/gin_toolbar_custom_menu-1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": "2956cdd5a48cc38864ee44a5dfb8757c0464e4ea"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10",
+                "drupal/gin_toolbar": "^1.0@RC"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0",
+                    "datestamp": "1677258046",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "João mauricio (jmauricio)",
+                    "homepage": "https://www.drupal.org/user/274084",
+                    "email": "jmauricio@javali.pt",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "This module provides the ability to change the Gin Toolbar menu for specific user roles.",
+            "homepage": "https://drupal.org/project/gin_toolbar_custom_menu",
+            "support": {
+                "source": "https://git.drupalcode.org/project/gin_toolbar_custom_menu",
+                "issues": "https://www.drupal.org/project/issues/gin_toolbar_custom_menu"
+            },
+            "install-path": "../../web/modules/contrib/gin_toolbar_custom_menu"
         },
         {
             "name": "egulias/email-validator",
