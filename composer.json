@@ -29,7 +29,9 @@
         "drupal/gin_toolbar_custom_menu": "^1.0",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/profile": "^1.7",
-        "drupal/state_machine": "^1.8"
+        "drupal/project_browser": "^1.0@beta",
+        "drupal/state_machine": "^1.8",
+        "drupal/symfony_mailer": "^1.3"
     },
     "conflict": {
         "drupal/drupal": "*"
