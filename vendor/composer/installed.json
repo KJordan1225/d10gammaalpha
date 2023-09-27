@@ -857,6 +857,59 @@
             "install-path": "../../web/modules/contrib/address"
         },
         {
+            "name": "drupal/bootstrap5",
+            "version": "3.0.10",
+            "version_normalized": "3.0.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap5.git",
+                "reference": "3.0.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap5-3.0.10.zip",
+                "reference": "3.0.10",
+                "shasum": "8345e29e23439ed25037ede4e2221b3b12ae958a"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.10",
+                    "datestamp": "1694747986",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimir Roudakov (vladimiraus)",
+                    "homepage": "https://www.drupal.org/u/vladimiraus",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "VladimirAus",
+                    "homepage": "https://www.drupal.org/user/673120"
+                }
+            ],
+            "description": "Master theme using Bootstrap 5: powerful front-end framework for faster and easier web development.",
+            "homepage": "https://www.drupal.org/project/bootstrap5",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap5",
+                "issues": "https://www.drupal.org/project/issues/bootstrap5"
+            },
+            "install-path": "../../web/themes/contrib/bootstrap5"
+        },
+        {
             "name": "drupal/coffee",
             "version": "1.3.0",
             "version_normalized": "1.3.0.0",
@@ -928,6 +981,60 @@
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
             "install-path": "../../web/modules/contrib/coffee"
+        },
+        {
+            "name": "drupal/color",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/color.git",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/color-1.0.3.zip",
+                "reference": "1.0.3",
+                "shasum": "b88ab527bed65b67eec555ee4b17e633c19f3194"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10"
+            },
+            "require-dev": {
+                "drupal/bartik": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.3",
+                    "datestamp": "1663234622",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "kostyashupenko",
+                    "homepage": "https://www.drupal.org/user/3281537"
+                }
+            ],
+            "description": "Allows users to change the color scheme of compatible themes",
+            "homepage": "https://www.drupal.org/project/color",
+            "support": {
+                "source": "https://git.drupalcode.org/project/color"
+            },
+            "install-path": "../../web/modules/contrib/color"
         },
         {
             "name": "drupal/commerce",
@@ -1347,6 +1454,125 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "install-path": null
+        },
+        {
+            "name": "drupal/dxpr_theme",
+            "version": "5.1.2",
+            "version_normalized": "5.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dxpr_theme.git",
+                "reference": "5.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dxpr_theme-5.1.2.zip",
+                "reference": "5.1.2",
+                "shasum": "e09db24bf136fc9623a6ee49cb86bccc06cff34d"
+            },
+            "require": {
+                "drupal/bootstrap5": "^3",
+                "drupal/color": "*",
+                "drupal/core": ">=9.3",
+                "drupal/dxpr_theme_helper": "*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "5.1.2",
+                    "datestamp": "1692390353",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "DXPR",
+                    "homepage": "https://dxpr.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Low-code Drupal Framework Theme.",
+            "homepage": "https://www.drupal.org/project/dxpr_theme",
+            "keywords": [
+                "Bootstrap",
+                "DXPR",
+                "Drupal",
+                "Framework",
+                "Marketing",
+                "Theme"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/dxpr_theme",
+                "documentation": "https:/.dxpr.com/hc",
+                "issues": "https://dxpr.com/hc/tickets"
+            },
+            "install-path": "../../web/themes/contrib/dxpr_theme"
+        },
+        {
+            "name": "drupal/dxpr_theme_helper",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dxpr_theme_helper.git",
+                "reference": "1.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dxpr_theme_helper-1.0.4.zip",
+                "reference": "1.0.4",
+                "shasum": "2bec0b61082d8f4a28877f234628e159ad2c473e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.4",
+                    "datestamp": "1662462208",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "DXPR",
+                    "homepage": "https://dxpr.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Helper module  to support DXPR Theme.",
+            "homepage": "https://www.drupal.org/project/dxpr_theme_helper",
+            "keywords": [
+                "Bootstrap",
+                "DXPR",
+                "Drupal",
+                "Framework",
+                "Marketing",
+                "Theme"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/dxpr_theme_helper",
+                "documentation": "https:/.dxpr.com/hc",
+                "issues": "https://dxpr.com/hc/tickets"
+            },
+            "install-path": "../../web/modules/contrib/dxpr_theme_helper"
         },
         {
             "name": "drupal/entity",
@@ -1964,6 +2190,108 @@
                 "source": "https://git.drupalcode.org/project/mailsystem"
             },
             "install-path": "../../web/modules/contrib/mailsystem"
+        },
+        {
+            "name": "drupal/menu_item_role_access",
+            "version": "2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/menu_item_role_access.git",
+                "reference": "8.x-2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_item_role_access-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "39af3acd1a0e3459d1b654b0641ca68dc82315b0"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.1",
+                    "datestamp": "1669907038",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "LiamPower",
+                    "homepage": "https://www.drupal.org/user/3016225"
+                }
+            ],
+            "description": "Provide role based access to menu items.",
+            "homepage": "https://www.drupal.org/project/menu_item_role_access",
+            "support": {
+                "source": "https://git.drupalcode.org/project/menu_item_role_access"
+            },
+            "install-path": "../../web/modules/contrib/menu_item_role_access"
+        },
+        {
+            "name": "drupal/menu_link_attributes",
+            "version": "1.3.0",
+            "version_normalized": "1.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/menu_link_attributes.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_link_attributes-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "431c7954cc614a1b9677173f0209f1df15592503"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1671026425",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "jcnventura",
+                    "homepage": "https://www.drupal.org/user/122464"
+                },
+                {
+                    "name": "yannickoo",
+                    "homepage": "https://www.drupal.org/user/531118"
+                }
+            ],
+            "description": "Allows you to add attributes to menu links.",
+            "homepage": "http://drupal.org/project/menu_link_attributes",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/menu_link_attributes",
+                "issues": "http://drupal.org/project/issues/menu_link_attributes"
+            },
+            "install-path": "../../web/modules/contrib/menu_link_attributes"
         },
         {
             "name": "drupal/profile",
