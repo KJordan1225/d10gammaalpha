@@ -1,0 +1,12 @@
+name: "CKEditor SVG Icon"
+type: module
+description: "CKEditor 5 plugin for inserting inline SVG's from a sprite into the WYSIWYG editor."
+package: CKEditor
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:ckeditor5
+
+# Information added by Drupal.org packaging script on 2023-01-26
+version: '1.0.0-alpha1'
+project: 'ckeditor_svg_icon'
+datestamp: 1674721435

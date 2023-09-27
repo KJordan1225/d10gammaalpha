@@ -1,0 +1,8 @@
+# Plugin \Drupal\ckeditor_svg_icon\Plugin\CKEditor5Plugin\SvgIcon
+ckeditor5.plugin.ckeditor_svg_icon_plugins:
+  type: mapping
+  label: List
+  mapping:
+    icon_sprite_path:
+      type: string
+      label: 'Path to SVG sprite'

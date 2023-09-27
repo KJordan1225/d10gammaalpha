@@ -1,0 +1,13 @@
+# cSpell:ignore svgIcon
+svgIcon.plugin:
+  js:
+    js/build/svgIcon.js: { preprocess: false, minified: true }
+  dependencies:
+    - core/ckeditor5
+
+# Loaded in the text format configuration form to provide styling for the icon
+# used in toolbar config.
+svgIcon.plugin.admin:
+  css:
+    theme:
+      css/svgIcon.plugin.admin.css: {}

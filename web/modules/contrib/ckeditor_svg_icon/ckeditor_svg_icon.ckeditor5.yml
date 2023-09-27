@@ -1,0 +1,17 @@
+ckeditor_svg_icon_plugins:
+  ckeditor5:
+    plugins:
+      - svgIcon.SvgIcon
+  drupal:
+    label: SVG Icon
+    library: ckeditor_svg_icon/svgIcon.plugin
+    admin_library: ckeditor_svg_icon/svgIcon.plugin.admin
+    toolbar_items:
+      svgIcon:
+        label: Icons
+    elements:
+      - <i>
+      - <i class="icon">
+      - <svg>
+      - <use>
+    class: Drupal\ckeditor_svg_icon\Plugin\CKEditor5Plugin\SvgIcon
