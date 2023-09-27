@@ -27,6 +27,10 @@ class ComposerStaticInit909bcbdbd87b42be13154a6357079501
     );
 
     public static $prefixLengthsPsr4 = array (
+        'c' => 
+        array (
+            'cweagans\\Composer\\' => 18,
+        ),
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
@@ -120,6 +124,7 @@ class ComposerStaticInit909bcbdbd87b42be13154a6357079501
         ),
         'C' => 
         array (
+            'CssLint\\' => 8,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
             'CommerceGuys\\Intl\\' => 18,
@@ -133,6 +138,10 @@ class ComposerStaticInit909bcbdbd87b42be13154a6357079501
     );
 
     public static $prefixDirsPsr4 = array (
+        'cweagans\\Composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
+        ),
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
@@ -378,6 +387,10 @@ class ComposerStaticInit909bcbdbd87b42be13154a6357079501
         'Doctrine\\Common\\Annotations\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
+        'CssLint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/neilime/php-css-lint/src/CssLint',
         ),
         'Composer\\Semver\\' => 
         array (
